@@ -1,0 +1,58 @@
+body {
+    color : red;
+}
+
+p {
+    color : blue;
+}
+
+#id1 { 
+    color: green;
+}
+
+.paragraph {
+    color : yellow;
+}
+
+body {
+    margin : 100px auto;
+}
+
+.step-two {
+    text-decoration: dashed;
+    text-transform: capitalize;
+    border : 3px solid pink;
+}
+
+.grid-photo
+{
+    display : grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    row-gap : 10px;
+    column-gap:10px;
+}
+
+.flex-photo
+{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.img 
+{
+    width : 400px;
+}
+
+@keyframes lol {
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.spinning 
+{
+    animation : lol 1.5s infinite linear;
+    display: inline-block;
+    font-size: 60px;
+}
