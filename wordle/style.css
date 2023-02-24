@@ -1,0 +1,82 @@
+.title {
+    margin : auto;
+    font-size: 35px;
+    width: 400px;
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding : 40px;
+    font-weight: bold;
+}
+
+.container {
+    display : flex;
+    flex-direction: column;
+    width : 340px;
+    height: 300px;
+    justify-content: space-between;
+    gap : 10px;
+    margin : 0px auto;
+}
+
+.line {
+    display : flex;
+    flex-direction: row;
+    gap : 15px;
+}
+
+.box {
+    border : 2px solid lightgray;
+    width : 42px;
+    height: 40px;
+    text-align : center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+
+.green {
+    background-color: green;
+    color : white;
+}
+
+.orange {
+    background-color: orange;
+    color : white;
+}
+
+.grey {
+    background-color: grey;
+    color : white;
+}
+
+.not-visible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.loader {
+    margin : 5px auto;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 0.5s linear infinite;
+}
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.endgame-msg {
+    margin : auto;
+    font-size: 15px;
+    width: 400px;
+    text-align: center;
+    padding : 1px;
+    font-weight: bold;
+}
